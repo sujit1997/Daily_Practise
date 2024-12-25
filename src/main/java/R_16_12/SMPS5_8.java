@@ -6,7 +6,7 @@ public class SMPS5_8 {
         int num = sc.nextInt();
         System.out.println("Factorial of a " + num + " is : ");
         int fact = 1;
-        for(int i=num;i>=1;i--){
+        for(int i=1;i<=num;i++){
           fact *=i;
         }
         System.out.println(fact);
