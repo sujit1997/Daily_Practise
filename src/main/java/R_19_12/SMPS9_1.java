@@ -1,6 +1,6 @@
 package R_19_12;
 
-class Cylinder{
+class   Cylinder{
     private int radius;
     private int height;
 
