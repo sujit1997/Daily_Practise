@@ -1,0 +1,14 @@
+package SM_1_23_Revision;
+
+public class SMPS6_3 {
+    public static void main(String[] args) {
+        int [] marks = {56,74,95,43,85};
+        float average = 0;
+        int total = 0;
+        for(int i=0;i<= marks.length-1;i++){
+            total +=marks[i];
+        }
+        average = total/ marks.length;
+        System.out.println(average);
+    }
+}
