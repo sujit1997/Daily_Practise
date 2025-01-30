@@ -6,16 +6,17 @@ public class SMPS5_18 {
         System.out.println("Enter a number");
         int num = sc.nextInt();
         boolean isItPrime = true;
-        for(int i=2;i<=num-1;i++){
+        for(int i=num-1;i>=2;i--){
             if(num%i==0){
                 isItPrime = false;
             }
         }
-        if(isItPrime){
-            System.out.println("number is prime");
+        if (isItPrime==true){
+            System.out.println("Number is prime number");
         }
         else {
-            System.out.println("number is not prime");
+            System.out.println("number is not prime number");
         }
+
     }
 }
