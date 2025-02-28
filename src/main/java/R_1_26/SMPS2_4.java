@@ -6,7 +6,7 @@ public class SMPS2_4 {
         int u = 6;
         int a = 7;
         int s = 8;
-        float exp = (v*v)-(u*u)/(2.0f*a*s);
+        float exp = ((v*v)-(u*u))/(2.0f*a*s);
         System.out.println(exp);
     }
 }
