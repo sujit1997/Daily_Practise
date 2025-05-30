@@ -1,14 +1,14 @@
 package R_5_28;
 import java.util.Scanner;
-public class SMPS6_2 {
+public class SMPS6_2b {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int [] marks2 = {96,74,85,63,52};
+        int [] marks23 = {96,74,85,63,52};
         System.out.println("Enter a number");
         int num = sc.nextInt();
         boolean itispresent = false;
-        for(int i=0; i <= marks2.length-1; i++){
-            if(num==marks2[i]){
+        for(int i=0; i <= marks23.length-1; i++){
+            if(num==marks23[i]){
                 itispresent = true;
             }
         }

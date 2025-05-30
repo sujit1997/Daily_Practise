@@ -5,7 +5,7 @@ public class SMPS5_5 {
        int n=5;
        int total = 0;
        for(int i=1;i<=n;i++){
-            total += i;
+            total += 2*i;
        }
         System.out.println(total);
     }
