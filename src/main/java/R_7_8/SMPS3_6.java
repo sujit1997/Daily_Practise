@@ -5,11 +5,13 @@ public class SMPS3_6 {
 
        String exp = "This sentance contain lots of words";
         int count = 0;
-        for(int i=0;i<exp.length()-1;i++){
-            if(exp ==" "){
+
+        for(int i=0;i<exp.length();i++){
+            if(exp.charAt(i) == ' '){
                 count++;
             }
         }
+
         System.out.println(count+1);
 
     }
