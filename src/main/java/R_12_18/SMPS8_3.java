@@ -12,7 +12,7 @@ class Square{
 public class SMPS8_3 {
     public static void main(String[] args) {
     Square sq = new Square();
-    sq.side = 3;
+    sq.side = 20;
         System.out.println(sq.area());
         System.out.println(sq.perimeter());
     }
