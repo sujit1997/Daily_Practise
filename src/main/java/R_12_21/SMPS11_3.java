@@ -7,6 +7,7 @@ class monkey{
         System.out.println("bite");
     }
 }
+
 interface BasicAnimal{
     void eat();
     void sleep();
